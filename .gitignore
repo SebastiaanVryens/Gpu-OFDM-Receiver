@@ -1,0 +1,17 @@
+# Build output (CMake out-of-source builds)
+/build/
+/build-*/
+
+# Profiler reports and their SQLite exports (large binaries; results go in docs/)
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+
+# Python (plotting and benchmark scripts)
+__pycache__/
+.venv/
+
+# Per-developer settings, not part of the project
+CMakeUserPresets.json
+.vscode/
+.claude/
