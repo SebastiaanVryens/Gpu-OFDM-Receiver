@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
+
+# Binary files: never convert line endings, never diff as text.
+*.png binary
+*.jpg binary
+*.pdf binary
